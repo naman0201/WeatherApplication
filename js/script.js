@@ -8,11 +8,11 @@ let forecastEndPoint =
   weatherAPIKey +
   "&units=metric";
 let geocodingBaseEndPoint =
-  "http://api.openweathermap.org/geo/1.0/direct?limit=5&appid=" +
+  "https://api.openweathermap.org/geo/1.0/direct?limit=5&appid=" +
   weatherAPIKey +
   "&q=";
 let currentCityEndPoint =
-  "http://api.openweathermap.org/geo/1.0/reverse?limit=1&appid=" +
+  "https://api.openweathermap.org/geo/1.0/reverse?limit=1&appid=" +
   weatherAPIKey;
 let searchInp = document.querySelector(".weather_search");
 let city = document.querySelector(".weather_city");
